@@ -25,12 +25,12 @@ const Experiences = () => {
       <div className="mt-4 ml-1">
         <ol className="relative border-l border-gray-400">
           <Experience
-            dateRange="October 2019 - November 2019"
-            title="Software Developer Trainee"
-            company="Innospire Corporation"
+            dateRange="May 2022 - Present"
+            title="Junior Full Stack Developer"
+            company="Offshorly"
             tasks={[
-              "Developed websites for clients using PHP and MySQL.",
-              "Created high quality designs (logos, slogans, etc.) using Adobe Photoshop.",
+              "Was the lead full-stack developer of a leaderboard application specifically for the -Le games (Nerdle, Wordle, Quordle, etc.). The technologies that we used were ReactJS, NodeJS, React Native, AWS, DynamoDB.",
+              "Helped with the development of a procurement application for a UK company. The technologies that we used were ReactJS, NodeJS, AWS, DynamoDB",
             ]}
           />
           <Experience
@@ -44,12 +44,12 @@ const Experiences = () => {
             ]}
           />
           <Experience
-            dateRange="May 2022 - Present"
-            title="Junior Full Stack Developer"
-            company="Offshorly"
+            dateRange="October 2019 - November 2019"
+            title="Software Developer Trainee"
+            company="Innospire Corporation"
             tasks={[
-              "Was the lead full-stack developer of a leaderboard application specifically for the -Le games (Nerdle, Wordle, Quordle, etc.). The technologies that we used were ReactJS, NodeJS, React Native, AWS, DynamoDB.",
-              "Helped with the development of a procurement application for a UK company. The technologies that we used were ReactJS, NodeJS, AWS, DynamoDB",
+              "Developed websites for clients using PHP and MySQL.",
+              "Created high quality designs (logos, slogans, etc.) using Adobe Photoshop.",
             ]}
           />
         </ol>
