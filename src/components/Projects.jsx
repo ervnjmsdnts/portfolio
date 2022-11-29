@@ -23,7 +23,7 @@ const Projects = () => {
   return (
     <div>
       <h3 className="text-3xl font-bold">Projects</h3>
-      <div className="grid grid-cols-3 gap-6 mt-4">
+      <div className="grid grid-cols-1 md:grid-cols-3 gap-6 mt-4">
         <Project
           name="Inventory Management"
           description="An inventory management system that allows the scanning of items using QR codes."

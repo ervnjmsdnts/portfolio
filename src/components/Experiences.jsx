@@ -22,7 +22,7 @@ const Experiences = () => {
   return (
     <div>
       <h3 className="text-3xl font-bold">Experiences</h3>
-      <div className="mt-4">
+      <div className="mt-4 ml-1">
         <ol className="relative border-l border-gray-400">
           <Experience
             dateRange="October 2019 - November 2019"

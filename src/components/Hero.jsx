@@ -7,9 +7,9 @@ const Divider = () => {
 
 const Hero = () => {
   return (
-    <div className="flex justify-center items-center gap-16 h-[40vh]">
-      <img src={Picture} alt="logo" className="w-72 rounded-full" />
-      <div>
+    <div className="flex flex-col md:flex-row justify-center items-center gap-16 md:h-[40vh] h-full">
+      <img src={Picture} alt="logo" className="md:w-72 w-48 rounded-full" />
+      <div className="text-center md:text-start">
         <div className="flex flex-col gap-2">
           <h2 className="text-4xl">
             My name is <span className="font-bold">Earvin James Dantes</span>
@@ -28,7 +28,7 @@ const Hero = () => {
             Download CV
           </button>
         </a>
-        <div className="flex items-center gap-2 mt-8 text-gray-400">
+        <div className="flex items-center justify-center md:justify-start gap-2 mt-8 text-gray-400">
           <a
             target="_blank"
             rel="noreferrer"

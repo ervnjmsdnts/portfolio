@@ -5,7 +5,7 @@ import Projects from "./components/Projects";
 
 const App = () => {
   return (
-    <div className="mx-80">
+    <div className="md:mx-80 mx-8">
       <Navbar />
       <div className="flex flex-col gap-8">
         <Hero />
