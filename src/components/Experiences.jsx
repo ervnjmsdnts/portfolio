@@ -45,7 +45,7 @@ const Experiences = () => {
           />
           <Experience
             dateRange="May 2022 - Present"
-            title="Junior Full Stack Developer Intern"
+            title="Junior Full Stack Developer"
             company="Offshorly"
             tasks={[
               "Was the lead full-stack developer of a leaderboard application specifically for the -Le games (Nerdle, Wordle, Quordle, etc.). The technologies that we used were ReactJS, NodeJS, React Native, AWS, DynamoDB.",
