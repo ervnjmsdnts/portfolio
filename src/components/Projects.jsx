@@ -31,7 +31,7 @@ const Projects = () => {
         />
         <Project
           name="Todo List CLI"
-          description="A CLI tool that generates a backend application using NodeJS ExpressJS and MongoDB."
+          description="A CLI tool that generates a backend API using NodeJS ExpressJS and MongoDB."
           githubHref="https://github.com/ervnjmsdnts/todolist-cli"
         />
         <Project
