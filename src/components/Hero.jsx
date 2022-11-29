@@ -7,7 +7,7 @@ const Divider = () => {
 
 const Hero = () => {
   return (
-    <div className="flex flex-col md:flex-row justify-center items-center gap-16 md:h-[40vh] h-full">
+    <div className="flex flex-col md:flex-row justify-center items-center gap-8 md:gap-16 md:h-[40vh] h-full">
       <img src={Picture} alt="logo" className="md:w-72 w-48 rounded-full" />
       <div className="text-center md:text-start">
         <div className="flex flex-col gap-2">
